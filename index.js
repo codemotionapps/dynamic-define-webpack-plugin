@@ -6,7 +6,7 @@ const NullFactory = require("webpack/lib/NullFactory");
 function parse(parser, definitions){
 	(function walkDefinitions(definitions, prefix) {
 		Object.keys(definitions).forEach((key) => {
-			const code = definitions[key];
+			let code = definitions[key];
 			if(typeof code === "function") code = code();
 			if(code && typeof code === "object" && !(code instanceof RegExp)) {
 				walkDefinitions(code, prefix + key + ".");

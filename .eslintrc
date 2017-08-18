@@ -5,6 +5,7 @@
     },
     "rules": {
         "no-undef": "error",
-        "semi": "error"
+        "semi": "error",
+        "no-const-assign": "error"
     }
 }

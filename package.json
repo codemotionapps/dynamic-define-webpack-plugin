@@ -1,0 +1,11 @@
+{
+  "name": "@codemotion/dynamic-define-webpack-plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/codemotionapps/dynamic-define-webpack-plugin.git",
+  "author": "Dimitar Nestorov <hi@dimitarnestorov.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "4.4.1"
+  }
+}

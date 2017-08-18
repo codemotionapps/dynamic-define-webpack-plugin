@@ -1,6 +1,6 @@
 {
   "name": "@codemotion/dynamic-define-webpack-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "https://github.com/codemotionapps/dynamic-define-webpack-plugin.git",
   "author": "Dimitar Nestorov <hi@dimitarnestorov.com>",

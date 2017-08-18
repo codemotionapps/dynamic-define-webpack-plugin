@@ -1,7 +1,7 @@
-const ConstDependency = require("./dependencies/ConstDependency");
-const BasicEvaluatedExpression = require("./BasicEvaluatedExpression");
-const ParserHelpers = require("./ParserHelpers");
-const NullFactory = require("./NullFactory");
+const ConstDependency = require("webpack/lib/dependencies/ConstDependency");
+const BasicEvaluatedExpression = require("webpack/lib/BasicEvaluatedExpression");
+const ParserHelpers = require("webpack/lib/ParserHelpers");
+const NullFactory = require("webpack/lib/NullFactory");
 
 function parse(parser, definitions){
 	(function walkDefinitions(definitions, prefix) {
